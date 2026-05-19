@@ -27,3 +27,6 @@ jobs:
     - name: Push Docker Image
       run: |
         docker push ${{ secrets.DOCKER_USERNAME }}/boston-house-app
+
+
+# Docker testing
